@@ -9,7 +9,6 @@ import ClientHorizontalAlbum from '../components/MenuPageComponents/ClientHorizo
 const BusinessMenuPage = ({getMenuFromID, addItemToClientCart, getAlbumItemsWithID, currentFilterList}) => {
 
 
-
   let {id} = useParams();
   let menuFromID = getMenuFromID(id);
   let menuArray = menuFromID.menu;
