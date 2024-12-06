@@ -41,7 +41,6 @@ const SignUpFields = ({addBlock, addClient}) => {
         setEmail('');
         setPassword('');
         setConfirmPassword('');
-
     }
 
     let handleAccountTypeChange = (e) => {
