@@ -1,0 +1,625 @@
+[
+    {
+        "id" : 0,
+        "name" : "Koy Grill",
+        "street": "336 NJ-18 N", 
+        "town": "East Brunswick", 
+        "state": "NJ", 
+        "zip": "08816", 
+        "color": "bg-gradient-to-l from-orange-400 to-orange-200", 
+        "image": "", 
+        "font": "", 
+        "deployed": true, 
+        "username": "B1", 
+        "email": "e1", 
+        "password": "p1", 
+        "albumItems": [], 
+        "purchasedItems": [], 
+        "weekIncome": [], 
+        "menuDeployed":true, 
+        "menu": [
+            { 
+                "name": "Soup/Salad", "items": [
+                    {"itemName": "Red Lentil Soup + 1 Pita", "itemPrice": "7.00", "itemDescription": "A traditional red lentil pureed soup. Served with 1 Pita."},
+                    {"itemName": "SML Shepard Salad", "itemPrice": "11.00", "itemDescription": "Freshly diced tomatoes, cucumbers, & parsley tossed in house dressing."},
+                    {"itemName": "LG Shepard Salad", "itemPrice": "15.00", "itemDescription": "Freshly diced tomatoes, cucumbers, & parsley tossed in house dressing."},
+                    {"itemName": "SML Mediterranean Salad", "itemPrice": "14.00", "itemDescription": "Mixed greens, romaine, tomatoes, onions, red cabbage, frayed carrots, chickpea, olives, and corn."},
+                    {"itemName": "LG Mediterranean Salad", "itemPrice": "18.00", "itemDescription": "Mixed greens, romaine, tomatoes, onions, red cabbage, frayed carrots, chickpea, olives, and corn."}
+                ]
+            },
+            {
+                "name": "Cold Appetizers", "items": [
+                    {"itemName": "Hummus + 2 Pita", "itemPrice": "9.00", "itemDescription": "Pureed chickpeas blended with tahini, olive oil, lemon juice, garlic & spices."},
+                    {"itemName": "Smoked Eggplant Dip + 2 Pita", "itemPrice": "9.00", "itemDescription": "Smoked eggplant puree seasoned with tahini, garlic, olive oil & lemon juice."},
+                    {"itemName": "Creamy Yogurt Dip + 2 Pita", "itemPrice": "9.00", "itemDescription": "Fresh yogurt flavored with crushed walnuts, mint, dill, garlic & olive oil."},
+                    {"itemName": "Eggplant Tomato Dip + 2 Pita", "itemPrice": "9.00", "itemDescription": "Pan fried cubes of eggplant tossed in roasted bell pepper sauce with lemon juice."},
+                    {"itemName": "Stuffed Grape Leaves (5 PC)", "itemPrice": "9.00", "itemDescription": "Fresh vine grape leaves stuffed with rice drizzled in olive oil & herbs."}
+                ]
+            },
+            {
+                "name": "Hot Appetizers", "items": [
+                    {"itemName": "Falafel & Hummus + 1 Pita", "itemPrice": "12.00", "itemDescription": "Five deep fried balls of chickpea puree. Served with hummus, 1 pita & tahini."},
+                    {"itemName": "Crispy Phyllo Rolls (Feta)", "itemPrice": "11.00", "itemDescription": "Lightly fried crispy pastries stuffed with feta cheese & parsley."},
+                    {"itemName": "Crispy Phyllo Rolls (Meat)", "itemPrice": "12.00", "itemDescription": "Lightly fried crispy pastries stuffed with seasoned ground beef served with green chilli sauce."},
+                    {"itemName": "Beef Liver", "itemPrice": "15.00", "itemDescription": "Cubes of pan-fried seasoned calf liver served with onion, parsley & garnish."},
+                    {"itemName": "Calamari", "itemPrice": "15.00", "itemDescription": "Crispy fried breaded calamari served with marinara sauce"},
+                    {"itemName": "Turkish Bread", "itemPrice": "1.50", "itemDescription": ""}
+                ]
+            },
+            {
+                "name": "Entrees-Chicken", "items": [
+                    {"itemName": "Chicken Gyro + 1 Pita", "itemPrice": "21.00", "itemDescription": "Thinly sliced marinated chicken slow roasted on a rotisserie. Served with pita, white rice, and garnish of red onion, cucumber, and pickled red cabbage."},
+                    {"itemName": "Chicken Shish", "itemPrice": "22.00", "itemDescription": "Skewed marinated cubes of chicken breast char grilled to perfection. Served with white rice, and garnish of red onion, cucumber, and pickled red cabbage."},
+                    {"itemName": "Chicken Adana", "itemPrice": "21.00", "itemDescription": "Skewed hand chopped chicken marinated with red peppers/onions char grilled to perfection. Served with white rice, and garnish of red onion, cucumber, and pickled red cabbage."},
+                    {"itemName": "Chicken Chops", "itemPrice": "23.00", "itemDescription": "Char grilled boneless chicken thighs marinated with yogurt, pepper, and herbs. Served with white rice, and garnish of red onion, cucumber, and pickled red cabbage."}
+                ]
+            },
+            {
+                "name": "Entrees-Beef/Lamb", "items": [
+                    {"itemName": "Lamb Gyro + 1 Pita", "itemPrice": "22.00", "itemDescription": "Thinly sliced marinated lamb slow roasted on a rotisserie. Served with 1 Pita, white rice, and garnish of red onion, cucumber, and pickled red cabbage."},
+                    {"itemName": "Beef Shish", "itemPrice": "28.00", "itemDescription": "Skewed marinated cubes of tender beef char grilled to perfection. Served with white rice, and garnish of red onion, cucumber, and pickled red cabbage."},
+                    {"itemName": "Lamb Adana", "itemPrice": "22.00", "itemDescription": "Skewed hand chopped lamb marinated with red peppers and onions, and char grilled to perfection. Served with white rice, and garnish of red onion, cucumber, and pickled red cabbage."},
+                    {"itemName": "Lamb Chops", "itemPrice": "35.00", "itemDescription": "Char grilled baby lamb chops marinated with chef's special seasoning. Served with white rice, and garnish of red onion, cucumber, and pickled red cabbage."}
+                ]
+            },
+            {
+                "name": "Seafood", "items": [
+                    {"itemName": "Koy Shrimp (Jumbo 7 PC)", "itemPrice": "26.00", "itemDescription": "Pan seared shrimp tossed in house seasoning & lemon juice. Served with bulgar, sauteed mushrooms, and sauteed cherry tomatoes."},
+                    {"itemName": "Grilled Salmon", "itemPrice": "26.00", "itemDescription": "Char grilled filleted salmon seasoned with herbs & lemon juice. Served with bulgar, and garnish of red onion, cucumber, and pickled red cabbage."}
+                ]
+            },
+            {
+                "name": "Vegetarian", "items": [
+                    {"itemName": "Falafel & Hummus Dinner + 1 Pita", "itemPrice": "18.00", "itemDescription": "Seven deep fried balls of chickpea puree with tahini and hummus, served with 1 Pita bread, white rice, and garnish of red onion, cucumber, and pickled red cabbage."},
+                    {"itemName": "Stuffed Eggplant", "itemPrice": "20.00", "itemDescription": "Baby eggplant stuffed with onions, pine nuts, raisins, and drizzled in olive oil. Served with bulgar, and garnish of red onion, cucumber, and pickled red cabbage."}
+                ]
+            },
+            {
+                "name": "Dessert", "items": [
+                    {"itemName": "Pistachio Baklava (1PC)", "itemPrice": "2.50", "itemDescription": "Layered pastry dessert made of filo pastry, filled with chopped nuts, and sweetened with honey."},
+                    {"itemName": "Walnut Baklava (1PC)", "itemPrice": "2.50", "itemDescription": "Layered pastry dessert made of filo pastry, filled with chopped walnuts, and sweetened with honey."},
+                    {"itemName": "Kazandabi", "itemPrice": "10.00", "itemDescription": "Caramelized light milk pudding, garnished with pistachios, whipped cream, and chocolate syrup."}
+
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Over Easy Kitchen", 
+        "street": "460 County Rte 520", 
+        "town": "Marlboro Township", 
+        "state": "NJ", 
+        "zip": "07746", 
+        "color": "bg-gradient-to-l from-yellow-400 to-yellow-200", 
+        "image": "", 
+        "font": "", 
+        "deployed": true, 
+        "username": "B2", 
+        "email": "e2", 
+        "password": "p2", 
+        "albumItems": [],
+        "purchasedItems": [], 
+        "weekIncome": [], 
+        "menuDeployed":true,
+        "menu": [
+            {
+                "name": "EGG SHOP", "items": [
+                    {"itemName": "Grilled Steak & Eggs", "itemPrice": "21.00", "itemDescription": "Marinated skirt steak, three eggs, artisan seven grain avocado toast, evoo, crushed red pepper flakes."},
+                    {"itemName": "Protein Breffy", "itemPrice":"19.00", "itemDescription": "Scrambled egg whites, marinated grilled chicken, baby spinach, fresh lemon, evoo, artisan seven grain avocado toast."},
+                    {"itemName": "Fancy Burrata", "itemPrice":"18.00", "itemDescription": "Two poached eggs, fresh burrata cheese, arugula, avocado, tomatoes, red onions, balsamic, grilled sourdough, pesto aioli."},
+                    {"itemName": "Avocado Benedict-ish", "itemPrice":"16.00", "itemDescription": "Two poached eggs, country ham, toasted sourdough, hollandaise, avocado."},
+                    {"itemName": "Fancy Scramble", "itemPrice":"16.00", "itemDescription": "Soft scrambled eggs, burrata, heirloom tomatoes, pesto, crispy basil, flaky salt."},
+                    {"itemName": "Harvest Avo Toast", "itemPrice":"17.00", "itemDescription": "Whipped butternut squash ricotta, sweet potato, arugula, avocado, roasted pumpkin seeds, pink Himalayan salt, drizzled truffle honey, grilled sourdough."},
+                    {"itemName": "Salmon Avo Roll", "itemPrice":"19.00", "itemDescription": "Shrimp tempura, smoked salmon, avocado, mixed cheese, arugula, rolled in omelette & whole wheat wrap, sweet chili, spicy mayo."},
+                    {"itemName": "Cacio E Pepe Egg Sandwich", "itemPrice":"17.00", "itemDescription": "Buttery brioche bread, pecorino & parmigiano soft scramble, cracked black pepper, avocado, arugula salad."},
+                    {"itemName": "Chorizo Shakshuka", "itemPrice":"18.00", "itemDescription": "Chorizo, fire red sauce, two sunny side up eggs, greek yogurt, crumbled feta, avocado, sourdough."},
+                    {"itemName": "Mediterranean Omelette", "itemPrice":"15.00", "itemDescription": "Onions, tomatoes, spinach, feta, Greek prassini side salad, country toast."}
+                ]
+            }, 
+            {
+                "name": "Griddle", "items": [
+                    {"itemName": "Belgian Waffle", "itemPrice": "15.00", "itemDescription": "Warm cinnamon apples, homemade whipped cream, powdered sugar."},
+                    {"itemName": "Hot Cakes", "itemPrice":"12.00", "itemDescription": "Traditional pancakes, powdered sugar."},
+                    {"itemName": "Gluten Free Short Stack", "itemPrice":"14.00", "itemDescription": ""},
+                    {"itemName": "Lemon Ricotta Pancakes", "itemPrice":"15.00", "itemDescription": "Mixed berry compote, blueberries, house-made whipped cream, powdered sugar."},
+                    {"itemName": "Protein Pancakes", "itemPrice":"16.00", "itemDescription": "High protein greek yogurt, apple oat pancakes, yogurt & berry compote."},
+                    {"itemName": "The Daily French", "itemPrice":"16.00", "itemDescription": "Thick cut brioche, pistachio whipped butter, berries, cinnamon whipped cream."}
+                ]
+            },
+            {
+                "name": "Salads", "items": [
+                    {"itemName": "Farm House", "itemPrice":"15.00", "itemDescription": "Arcadian lettuce, grape tomatoes, avocado, red onions, dried cranberries, candied pecans, shaved Grana Padano, balsamic dressing."},
+                    {"itemName": "OEK Classic Caesar", "itemPrice":"20.00", "itemDescription": "Blackened shrimp, chopped romaine, tomatoes, avocado, shaved Grana Padano, homemade caesar dressing."},
+                    {"itemName": "West Coast Greek", "itemPrice":"18.00", "itemDescription": "Grape tomatoes, feta, onions, avocado, kalamata olives, lemon vinaigrette, grilled chicken, grilled naan."},
+                    {"itemName": "Cali Cobb", "itemPrice":"18.00", "itemDescription": "Romaine lettuce, grilled chicken, grilled corn, hard boiled egg, avocado, bacon, tomatoes, red onions, bleu cheese crumbles, ranch dressing."},
+                    {"itemName": "Fall In Love", "itemPrice":"20.00", "itemDescription": "Blackened shrimp, arugula, warm quinoa, roasted corn & butternut squash, tomatoes, watermelon radish, hot honey mustard dressing."}
+                ]
+            },
+            {
+                "name" : "Drinks", "items": [
+                    {"itemName": "Vanilla London Fog", "itemPrice":"6.50", "itemDescription": "Fresh steeped earl grey tea, vanilla, steamed milk, honey drizzle."},
+                    {"itemName": "White Chocolate Matcha", "itemPrice":"8.50", "itemDescription": "Matcha, milk, white chocolate."},
+                    {"itemName": "Maple Sea Salt Latte", "itemPrice":"7.50", "itemDescription": "2 shots espresso, organic maple syrup, steamed milk, pinch of salt."},
+                    {"itemName": "Creamy Coconut Hot Cocoa", "itemPrice":"7.50", "itemDescription": "Hot cocoa, coconut maple infused cold foam, cocoa powder."},
+                    {"itemName": "Eggnog Latte", "itemPrice":"7.50", "itemDescription": "2 shots espresso, milk of choice, eggnog, cinnamon, nutmeg."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Royal Barbecue", 
+        "street": "45 Obert St", 
+        "town": "South River", 
+        "state": "NJ", 
+        "zip": "08882", 
+        "color": "bg-gradient-to-l from-red-400 to-red-200", 
+        "image": "", 
+        "font": "", 
+        "deployed": true, 
+        "username": "B3", 
+        "email": "e3", 
+        "password": "p3", 
+        "albumItems": [],
+        "purchasedItems": [], 
+        "weekIncome": [], 
+        "menuDeployed":true,
+        "menu": [
+            {
+                "name": "Entrees", "items": [
+                    {"itemName": "T-Bone Steak", "itemPrice":"17.00", "itemDescription": "Served with rice and french fries."},
+                    {"itemName": "Pork Ribs", "itemPrice":"15.00", "itemDescription": "Served with rice and french fries."},
+                    {"itemName": "Pork Steak", "itemPrice":"15.00", "itemDescription": "Served with rice and french fries."},
+                    {"itemName": "Whole Chicken", "itemPrice":"15.00", "itemDescription": "Served with rice and french fries."},
+                    {"itemName": "Combo 1/2 Chicken and 1/2 Pork Ribs", "itemPrice":"15.50", "itemDescription": "Served with rice and french fries."},
+                    {"itemName": "Beef Sirloin", "itemPrice":"17.00", "itemDescription": "Served with rice and french fries."},
+                    {"itemName": "1/2 Ribs", "itemPrice":"8.00", "itemDescription": "Served with rice and french fries."},
+                    {"itemName": "1/2 Chicken", "itemPrice":"8.00", "itemDescription": "Served with rice and french fries."},
+                    {"itemName": "1/2 Pork Steak", "itemPrice":"8.00", "itemDescription": "Served with rice and french fries."}
+                ]
+            }, 
+            {
+                "name": "Sides", "items": [
+                    {"itemName": "Extra Fries", "itemPrice": "3.00", "itemDescription": ""},
+                    {"itemName": "Extra Rice", "itemPrice": "3.00", "itemDescription": ""},
+                    {"itemName": "Salad", "itemPrice": "3.00", "itemDescription": ""}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Jalapeno and Cilantro Grill", 
+        "street": "28 S Main St", 
+        "town": "Milltown", 
+        "state": "NJ", 
+        "zip": "08850", 
+        "color": "bg-gradient-to-l from-green-400 to-green-200", 
+        "image": "", 
+        "font": "", 
+        "deployed": true, 
+        "username": "B4", 
+        "email": "e4", 
+        "password": "p4", 
+        "albumItems": [],
+        "purchasedItems": [], 
+        "weekIncome": [], 
+        "menuDeployed":true,
+        "menu": [
+            {
+                "name": "Breakfast Faves (Served all day)", "items": [
+                    {"itemName": "Two Large Eggs", "itemPrice":"5.50", "itemDescription": "With home fries and toast."},
+                    {"itemName": "Strawberry Cheesecake Pancake", "itemPrice":"11.00", "itemDescription": "Pancakes with cheesecake batter topped with strawberry sauce."},
+                    {"itemName": "French Toast", "itemPrice":"9.00", "itemDescription": "Dusted with powdered sugar and served with maple syrup."},
+                    {"itemName": "Pancakes", "itemPrice":"8.00", "itemDescription": "3 pancakes served with maple syrup."},
+                    {"itemName": "Apple Cobbler Waffle", "itemPrice":"8.00", "itemDescription": "Topped with whipped cream and 2 scoops of ice cream."},
+                    {"itemName": "Chicken and Waffle Sandwich", "itemPrice":"12.95", "itemDescription": "Crispy chicken tenders, maple syrup bacon, fried eggs, mozzarella, avocado, with a side of chipotle mayo sauce."}
+                ]
+            }, 
+            {
+                "name": "Brunch", "items": [
+                    {"itemName": "Rancheros", "itemPrice": "13.00", "itemDescription": "Fried eggs on 3 crispy fried corn tortillas, refried beans, slice of asado steak, sour cream, avocado, pickled red onion and salsa on the side."},
+                    {"itemName": "Hola Combo", "itemPrice":"13.00", "itemDescription": "Scrambled eggs garnished around the plate with grilled salami, fried cheese, homemade chorizo, grilled tomatoes, avocado, spinach, portabello mushrooms and tostones."},
+                    {"itemName": "Morning Chilaquiles", "itemPrice":"10.00", "itemDescription": "Fried corn tortilla chips sauteed on salsa, 2 eggs of any style, avocado, jack cheddar cheese and sour cream."},
+                    {"itemName": "Breakfast Burrito", "itemPrice":"11.95", "itemDescription": "Scrambled eggs, chorizo chunks, avocado, pico de gallo, jack cheddar cheese in a flour tortilla served with home fries."},
+                    {"itemName": "Avocado Toast", "itemPrice":"10.00", "itemDescription": "Mashed avocado served on white toast, two eggs with home fries and bacon."},
+                    {"itemName": "Breakfast Quesadilla", "itemPrice":"10.00", "itemDescription": "Scrambled eggs, fried pinto beans, ham, avocado, pickled jalapeno and melted jack cheddar cheese."}
+                ]
+            },
+            {
+                "name": "Burritos", "items": [
+                    {"itemName": "Vegetarian Burrito", "itemPrice":"11.00", "itemDescription": "Grilled vegetables, portabello mushrooms, peppers, onions, zucchini, avocado and grilled white cheese."},
+                    {"itemName": "The Super Burrito", "itemPrice":"14.00", "itemDescription": "Carne asada, pork carne enchilada, grilled chicken, avocada and quesillo."},
+                    {"itemName": "Del Mar Burrito", "itemPrice":"14.00", "itemDescription": "Grilled shrimp, fried calamari, fried flounder, jack cheddar cheese, avocado, mixed greens with tuna chipotle cream sauce."},
+                    {"itemName": "Salmon Burrito", "itemPrice":"14.00", "itemDescription": "Grilled salmon, fresh spinach, tomatoes, jack cheddar cheese with sweet chili sauce."},
+                    {"itemName": "Asada (Beef) Burrito", "itemPrice":"12.95", "itemDescription": "Asada (beef), mixed greens, avocado, pico de gallo and jack cheddar cheese."},
+                    {"itemName": "Grilled Chicken Burrito", "itemPrice":"10.95", "itemDescription": "Grilled chicken breast, mixed greens, avocado, pico de gallo and jack cheddar cheese."},
+                    {"itemName": "Crunchy Munchy Burrito", "itemPrice":"12.00", "itemDescription": "Breaded chicken breast, avocado, cheetos, mixed greens, jack cheddar cheese, buffalo sauce and blue cheese dressing."}
+                ]
+            },
+            {
+                "name": "Handmade Burgers", "items": [
+                    {"itemName": "Cheeseburger", "itemPrice":"10.00", "itemDescription": "Beef burger, mixed greens, tomatoes and American cheese."},
+                    {"itemName": "Tex Mex Burger", "itemPrice":"11.75", "itemDescription": "Beef burger, avocado, pico de gallo, mixed greens, tomatoes and jack cheddar cheese."},
+                    {"itemName": "Ranchero Burger", "itemPrice":"12.00", "itemDescription": "Beef burger with BBQ sauce, sliced jalapeno, bacon, caramelized onions and provolone cheese."},
+                    {"itemName": "The Queen Burger", "itemPrice":"12.95", "itemDescription": "Beef burger, pork roll, fried eggs, caramelized onions and swiss cheese."}
+                ]
+            },
+            {
+                "name": "Omelettes", "items": [
+                    {"itemName": "Cheese Omelette", "itemPrice":"7.25", "itemDescription": ""},
+                    {"itemName": "Sausage and Cheese Omelette", "itemPrice":"9.25", "itemDescription": ""},
+                    {"itemName": "Ham and Cheese Omelette", "itemPrice":"9.25", "itemDescription": ""},
+                    {"itemName": "Bacon and Cheese Omelette", "itemPrice":"9.25", "itemDescription": ""},
+                    {"itemName": "Fresh Garden Veggie Omelette", "itemPrice":"9.25", "itemDescription": "Broccoli, peppers, onions, spinach, tomatoes and mushrooms"},
+                    {"itemName": "Pico De Gallo Omelette", "itemPrice":"9.95", "itemDescription": "Ham, pico de gallo, jack cheddar cheese, guacamole and sour cream"},
+                    {"itemName": "Ham and Cheese Omelette", "itemPrice":"9.25", "itemDescription": ""}
+                ]
+            },
+            {
+                "name": "Quesadillas", "items": [
+                    {"itemName": "Cheese Quesadilla", "itemPrice":"7.00", "itemDescription": ""},
+                    {"itemName": "Al Pastor Quesadilla", "itemPrice":"10.95", "itemDescription": "Marinated pork meat, fresh pineapples and jack cheddar cheese"},
+                    {"itemName": "Pork Chorizilla Quesadilla", "itemPrice":"10.95", "itemDescription": "Chorizo chunks, mozzarella, quesillo and pico de gallo"},
+                    {"itemName": "Chicken Quesadilla", "itemPrice":"10.95", "itemDescription": "Grilled chicken breast, jack cheddar cheese with mango salsa"},
+                    {"itemName": "Veggie Quesadilla", "itemPrice":"10.95", "itemDescription": "Grilled vegetables, portabello mushrooms, peppers, onions, zucchini and jack cheddar cheese"},
+                    {"itemName": "Mole Quesadilla", "itemPrice":"10.95", "itemDescription": "Grilled chicken breast, jack cheddar cheese with mole sauce"},
+                    {"itemName": "Asada Quesadilla", "itemPrice":"12.95", "itemDescription": "Grilled asada (beef), jack cheddar cheese with mango salsa"},
+                    {"itemName": "Quesaburger", "itemPrice":"12.95", "itemDescription": "Ground beef, bacon, jack cheddar cheese, diced tomatoes, mixed greens with chipotle mayo sauce"},
+                    {"itemName": "Shrimp Quesadilla", "itemPrice":"14.00", "itemDescription": "Shrimp, jack cheddar cheese, pico de gallo with chipotle mayo sauce on the side"},
+                    {"itemName": "Surf + Turf Quesadilla", "itemPrice":"13.95", "itemDescription": "Shrimp, asada steak, fresh mango, pico de gallo, jack cheddar cheese with chipotle mayo sauce"}
+
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Truly Thai Restaurant", 
+        "street": "1 Haag St", 
+        "town": "Sayreville", 
+        "state": "NJ", 
+        "zip": "08872", 
+        "color": "bg-gradient-to-l from-violet-400 to-violet-200", 
+        "image": "", 
+        "font": "", 
+        "deployed": true, 
+        "username": "B5", 
+        "email": "e5", 
+        "password": "p5", 
+        "albumItems": [],
+        "purchasedItems": [], 
+        "weekIncome": [], 
+        "menuDeployed":true,
+        "menu": [
+            {
+                "name": "Appetizers", "items": [
+                    {"itemName": "Spring Rolls", "itemPrice": "8.95", "itemDescription": "Fried rolls served with sweet and sour sauced."},
+                    {"itemName": "Chicken Satay", "itemPrice": "9.95", "itemDescription": "Grilled marinated chicken on skewers served with cucumber salad and peanut sauce."},
+                    {"itemName": "Edamame", "itemPrice": "7.95", "itemDescription": "Lightly salted steamed soy beans"},
+                    {"itemName": "Fried Chicken Wings", "itemPrice": "9.95", "itemDescription": "Fried chicken wings with a side of Sweet Thai Chili Sauce and Mango Habanero Sauce."},
+                    {"itemName": "Moo Ping", "itemPrice": "9.95", "itemDescription": "Thai style pork BBQ on skewers served with sweet and sour sauce."},
+                    {"itemName": "Fried Calamari", "itemPrice": "10.95", "itemDescription": "Fried calamari served with sweet and sour sauce."},
+                    {"itemName": "Curry Puffs", "itemPrice": "9.95", "itemDescription": "Puff pastry stuffed with mince onion and potato served with cucumber salad."},
+                    {"itemName": "Thai Dumpling", "itemPrice": "9.95", "itemDescription": "Steamed seasoned vegtables, pork, crab meat and shrimp in a soft wonton skin."},
+                    {"itemName": "Fish Cake", "itemPrice": "10.95", "itemDescription": "Spicy. Fried fish cake served with cucumber and ground peanut in sweet and sour sauce."}
+                ]
+            }, 
+            {
+                "name": "Salads", "items": [
+                    {"itemName": "Thai Salad", "itemPrice": "8.95", "itemDescription": "Lettuce, tomatoes, carrots, onions, cucumber, and fried tofu served with peanut dressing."},
+                    {"itemName": "Papaya Salad", "itemPrice": "9.95", "itemDescription": "Green papaya with tomato, string beans, dried shrimp, and peanuts mixed with chili lime sauce."},
+                    {"itemName": "Seafood Salad", "itemPrice": "16.95", "itemDescription": "Mixed seafood with onions, lemon grass, chili paste, and lime juice."},
+                    {"itemName": "Crispy Duck Salad", "itemPrice": "23.95", "itemDescription": "Crispy duck with green apple, pineapple, carrot, cashew nuts, red onions, scallion in a citrus lime sauce."},
+                    {"itemName": "Nam Sod", "itemPrice": "12.95", "itemDescription": "Ginger, cashew nuts, lime juice, red onion, chili and ground roasted rice tossed with mince meat"}
+                    
+                ]
+            },
+            {
+                "name": "Fried Rice", "items": [
+                    {"itemName": "Thai Fried Rice", "itemPrice":"15.95", "itemDescription": "Traditional thai fried rice sauteed with egg, onion, carrot, peas, scallion, bell peppers, and tomatoes"},
+                    {"itemName": "Basil Fried Rice", "itemPrice":"15.95", "itemDescription": "Basil fried rice with egg, onions, bell peppers, and basil"},
+                    {"itemName": "Pineapple Fried Rice", "itemPrice":"15.95", "itemDescription": "Curry fried rice sauteed with pineapple, cashew nuts, raisins, onions, bell peppers, egg, carrot and peas."},
+                    {"itemName": "Panang Fried Rice", "itemPrice":"15.95", "itemDescription": "Panang curry fried rice with egg, string beans, bell peppers, and basil."},
+                    {"itemName": "Crabmeat Fried Rice", "itemPrice":"17.95", "itemDescription": "Crabmeat thai fried rice sauteed with egg, onion, carrot, peas, scallion, bell peppers, and tomatoes"}
+
+                ]
+            },
+            {
+                "name": "Curries", "items":[
+                    {"itemName": "Red Curry", "itemPrice":"16.95", "itemDescription": "Spicy. Red curry with coconut milk, bamboo shoots, bell pepper and basil leaves. Served with jasmine rice."},
+                    {"itemName": "Panang Curry", "itemPrice":"16.95", "itemDescription": "Spicy. Panang curry with coconut milk, string beans, bell pepper and basil leaves. Served with jasmine rice."},
+                    {"itemName": "Green Curry", "itemPrice":"16.95", "itemDescription": "Spicy. Green curry with coconut milk, zucchini, string beans, bell pepper and basil leaves. Served with jasmine rice."},
+                    {"itemName": "Massaman Curry", "itemPrice":"16.95", "itemDescription": "Spicy. Massaman curry with coconut milk, onions, carrots, bell peppers, pineapple, peas and potatoes. Served with jasmine rice."}
+                ]
+            },
+            {
+                "name": "Noodles", "items":[
+                    {"itemName": "Pad Thai", "itemPrice":"15.95", "itemDescription": "Stir-fried rice noodles with shrimp, scallions, ground peanut, bean sprout, and egg."},
+                    {"itemName": "Pad Kee Mao (Drunken Noodles)", "itemPrice":"15.95", "itemDescription": "Sauteed flat rice noodles with eggs, chicken, bell peppers, onions, string beans and thai basil."}
+                ]
+            },
+            {
+                "name": "Desserts", "items":[
+                    {"itemName": "Fresh Mango with Coconut Sticky Rice", "itemPrice":"7.95", "itemDescription": "Sweet mango slices paired with coconut-infused sticky rice, topped with creamy coconut sauce."},
+                    {"itemName": "Fried Banana Rolls", "itemPrice":"7.95", "itemDescription": "Deep fried banana wrapped in spring roll shells with honey on the side."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "East Hana", 
+        "street": "300 NJ-18", 
+        "town": "East Brunswick", 
+        "state": "NJ", 
+        "zip": "08816", 
+        "color": "bg-gradient-to-l from-indigo-400 to-indigo-200", 
+        "image": "", 
+        "font": "", 
+        "deployed": true, 
+        "username": "B6", 
+        "email": "e6", 
+        "password": "p6", 
+        "albumItems": [],
+        "purchasedItems": [], 
+        "weekIncome": [], 
+        "menuDeployed":true,
+        "menu": [
+            {
+                "name": "Appetizers", "items": [
+                    {"itemName": "Aged Tofu", "itemPrice": "4.95", "itemDescription": "Fried soy bean curd with special sauce"},
+                    {"itemName": "Gyoza", "itemPrice": "4.95", "itemDescription": "Steamed shrimp filled dumplings"},
+                    {"itemName": "Beef Negimaki", "itemPrice": "8.50", "itemDescription": "Sliced beef broiled with scallions. Served with special sauce."},
+                    {"itemName": "Ika Fried", "itemPrice": "7.95", "itemDescription": "Fried squid Japanese style."},
+                    {"itemName": "Tempura", "itemPrice": "7.50", "itemDescription": "Fried shrimp and vegetables."},
+                    {"itemName": "Harumaki", "itemPrice": "3.00", "itemDescription": "Fried spring roll"},
+                    {"itemName": "Edamame", "itemPrice": "4.95", "itemDescription": "Steamed and salted Japanese soy beans in shell"}
+                ]
+            }, 
+            {
+                "name": "Soups", "items": [
+                    {"itemName": "Miso Soup", "itemPrice": "2.00", "itemDescription": ""},
+                    {"itemName": "Gyoza Soup", "itemPrice": "4.95", "itemDescription": "Shrimp gyoza and vegetables"},
+                    {"itemName": "Seafood Soup", "itemPrice": "5.95", "itemDescription": "Shrimp, scallop, crab meat, fish cake, and vegetables"}
+                   
+                ]
+            },
+            {
+                "name": "Salads", "items": [
+                    {"itemName": "Green Salad", "itemPrice": "3.50", "itemDescription": ""},
+                    {"itemName": "Kani Salad", "itemPrice": "6.50", "itemDescription": ""},
+                    {"itemName": "House Salad", "itemPrice": "7.95", "itemDescription": "Sliced octopus with crab stick"},
+                    {"itemName": "Salmon Salad", "itemPrice": "9.95", "itemDescription": "Salmon, mango, avocado, tomato"}
+                ]
+            },
+            {
+                "name": "Rolls & Hand Rolls", "items": [
+                    {"itemName": "Cucumber", "itemPrice": "4.50", "itemDescription": ""},
+                    {"itemName": "Avocado", "itemPrice": "4.50", "itemDescription": ""},
+                    {"itemName": "Avocado Cucumber", "itemPrice": "4.95", "itemDescription": ""},
+                    {"itemName": "Crab Roll", "itemPrice": "4.95", "itemDescription": ""},
+                    {"itemName": "California Roll", "itemPrice": "5.95", "itemDescription": "Crab, cucumber, and avocado"},
+                    {"itemName": "Boston Roll", "itemPrice": "6.50", "itemDescription": "Shrimp, cucumber, avocado, and lettuce"},
+                    {"itemName": "Philadelphia Roll", "itemPrice": "6.95", "itemDescription": "Smoked salmon, avocado, and cream cheese"},
+                    {"itemName": "Eel Avocado Roll", "itemPrice": "6.95", "itemDescription": ""},
+                    {"itemName": "Shrimp Tempura Roll", "itemPrice": "6.95", "itemDescription": "Shrimp tempura, cucumber, avocado, and tobiko"},
+                    {"itemName": "Chicken Tempura Roll", "itemPrice": "6.50", "itemDescription": "Chicken tempura, cucumber, avocado, and tobiko"},
+                    {"itemName": "East Roll", "itemPrice": "6.95", "itemDescription": "Shrimp, egg, avocado, caviar, and cucumber"},
+                    {"itemName": "Sweet Potato Roll", "itemPrice": "6.50", "itemDescription": "Topped with tempura flakes"},
+                    {"itemName": "Spicy Crab Roll", "itemPrice": "5.95", "itemDescription": ""},
+                    {"itemName": "Alaskan Roll", "itemPrice": "6.95", "itemDescription": "Smoked salmon, avocado, cucumber and tobiko"},
+                    {"itemName": "Salmon Mango Roll", "itemPrice": "6.95", "itemDescription": ""},
+                    {"itemName": "Spicy Salmon Roll", "itemPrice": "6.95", "itemDescription": ""},
+                    {"itemName": "Tuna Roll", "itemPrice": "6.50", "itemDescription": ""},
+                    {"itemName": "Spicy Tuna Roll", "itemPrice": "6.95", "itemDescription": ""},
+                    {"itemName": "Yellowtail Roll", "itemPrice": "6.95", "itemDescription": "Scallions and yellowtail"},
+                    {"itemName": "Spicy Yellowtail Roll", "itemPrice": "7.25", "itemDescription": ""},
+                    {"itemName": "Spider", "itemPrice": "10.50", "itemDescription": "Soft shell crab, cucumber, avocado and tobiko"}
+                ]
+            },
+            {
+                "name": "Special Rolls", "items": [
+                    {"itemName": "Crazy Tuna", "itemPrice": "11.50", "itemDescription": "Spicy tuna, avocado, tobiko, lightly battered into a tempora"},
+                    {"itemName": "Dancing Eel Roll", "itemPrice": "13.95", "itemDescription": "Shrimp tempura, mango, tobiko inside, topped with eel and avocado"},
+                    {"itemName": "Diamond Roll", "itemPrice": "14.95", "itemDescription": "Tuna, yellowtail, avocado inside, salmon and ikura on top"},
+                    {"itemName": "Dragon Roll", "itemPrice": "14.50", "itemDescription": "Crab stick, avocado, cucumber inside, eel and tobiko on top"},
+                    {"itemName": "Fushion Spicy Roll", "itemPrice": "12.95", "itemDescription": "Spicy tuna, avocado inside, spicy crab and tobiko on top"},
+                    {"itemName": "Green Dragon", "itemPrice": "13.95", "itemDescription": "Eel, cucumber inside, sliced avocado, and tobiko on top"},
+                    {"itemName": "Hana Special", "itemPrice": "13.95", "itemDescription": "Shrimp tempura, crab, cucumber, inside eel, salmon and avocado"},
+                    {"itemName": "Hawaii Roll", "itemPrice": "14.95", "itemDescription": "Crab tempura, manga, tobiko inside, topped with lobster salad"},
+                    {"itemName": "Hokkaido Roll", "itemPrice": "14.50", "itemDescription": "Shrimp tempura, snow crab, avocado, cucumber, tobiko wrapped with soybean paper"},
+                    {"itemName": "King of Kani", "itemPrice": "15.50", "itemDescription": "Soft shell crab, snow crab, mango, avocado wrapped with soy bean paper"},
+                    {"itemName": "Naruto", "itemPrice": "11.95", "itemDescription": "Tuna, salmon, yellowtail and avocado roll with cucumber"},
+                    {"itemName": "Rainbow", "itemPrice": "13.50", "itemDescription": "California roll with four kinds of fish on top"},
+                    {"itemName": "Sakura Roll", "itemPrice": "13.95", "itemDescription": "Salmon, cream cheese, avocado inside, tuna & white fish on top"},
+                    {"itemName": "Salmon Lover", "itemPrice": "13.95", "itemDescription": "Salmon tempura, cucumber, avocado inside, spicy salmon and special sauce on top"},
+                    {"itemName": "Spicy Tuna Sandwich", "itemPrice": "13.50", "itemDescription": "Spicy tuna, crunch, avocado, tobiko and wasabi mayo"},
+                    {"itemName": "Sweet Heart", "itemPrice": "15.50", "itemDescription": "Salmon, avocado, tobiko inside, tuna on top"},
+                    {"itemName": "Sunshine Roll", "itemPrice": "13.50", "itemDescription": "Tempura shrimp, cucumber, avocado inside, spicy tuna and tempora crunch on top"}
+                ]
+            },
+            {
+                "name": "Teriyaki", "items": [
+                    {"itemName": "Beef", "itemPrice": "20.95", "itemDescription": "Broiled Beef in teriyaki sauce. Served with Miso Soup, Salad and Rice"},
+                    {"itemName": "Chicken", "itemPrice": "18.95", "itemDescription": "Broiled chicken in teriyaki sauce. Served with Miso Soup, Salad and Rice"},
+                    {"itemName": "Shrimp", "itemPrice": "20.95", "itemDescription": "Broiled shrimp in teriyaki sauce. Served with Miso Soup, Salad and Rice"},
+                    {"itemName": "Salmon", "itemPrice": "20.95", "itemDescription": "Broiled salmon in teriyaki sauce. Served with Miso Soup, Salad and Rice"},
+                    {"itemName": "Sake Kama", "itemPrice": "18.95", "itemDescription": "Grilled salmon neck. Served with Miso Soup, Salad and Rice"},
+                    {"itemName": "Salmon Miso", "itemPrice": "18.95", "itemDescription": "Grilled salmon belly. Served with Miso Soup, Salad and Rice"}
+
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Campozino", 
+        "street": "16 Ferry St", 
+        "town": "South River", 
+        "state": "NJ", 
+        "zip": "08882", 
+        "color": "bg-gradient-to-l from-red-400 to-red-200", 
+        "image": "", 
+        "font": "", 
+        "deployed": true, 
+        "username": "B7", 
+        "email": "e7", 
+        "password": "p7", 
+        "albumItems": [],
+        "purchasedItems": [], 
+        "weekIncome": [], 
+        "menuDeployed":true,
+        "menu": [
+            {
+                "name": "Appetizers", "items": [
+                    {"itemName": "Sauteed Shrimp in Pineapple", "itemPrice": "18.00", "itemDescription": ""},
+                    {"itemName": "Shrimp in Garlic Sauce", "itemPrice": "16.00", "itemDescription": ""},
+                    {"itemName": "Batter Fried Calamari With Balsamic Glaze", "itemPrice": "16.00", "itemDescription": ""},
+                    {"itemName": "Clams in Garlic Sauce", "itemPrice": "16.00", "itemDescription": ""},
+                    {"itemName": "Clams and Chourico Campozino Style", "itemPrice": "18.00", "itemDescription": ""},
+                    {"itemName": "Octopus in Garlic Sauce", "itemPrice": "16.00", "itemDescription": ""},
+                    {"itemName": "Sliced Portuguese Sausage Portuguese Style", "itemPrice": "17.00", "itemDescription": ""},
+                    {"itemName": "Stuffed Mushrooms in Port", "itemPrice": "16.00", "itemDescription": ""},
+                    {"itemName": "Yuka Bites with Sliced Sausage", "itemPrice": "16.00", "itemDescription": ""},
+                    {"itemName": "Mussels With Chourico in Red Sauce", "itemPrice": "16.00", "itemDescription": ""},
+                    {"itemName": "Filet Mignon Tips With Cherry Peppers", "itemPrice": "18.00", "itemDescription": ""},
+                    {"itemName": "Stuffed Eggplant With Spinach and Cheese", "itemPrice": "16.00", "itemDescription": ""}
+                ]
+            }, 
+            {
+                "name": "From The Grill", "items": [
+                    {"itemName": "28 OZ Cowboy Steak", "itemPrice": "48.00", "itemDescription": ""},
+                    {"itemName": "Porterhouse Steak", "itemPrice": "46.00", "itemDescription": ""},
+                    {"itemName": "T-Bone Steak", "itemPrice": "34.00", "itemDescription": ""},
+                    {"itemName": "Rib Eye", "itemPrice": "44.00", "itemDescription": ""},
+                    {"itemName": "Skirt Steak With Chimichurri", "itemPrice": "38.00", "itemDescription": ""},
+                    {"itemName": "Baby Back Pork Ribs", "itemPrice": "28.00", "itemDescription": ""},
+                    {"itemName": "Pork Chop With 1 Jumbo Tiger Prawn", "itemPrice": "40.00", "itemDescription": ""},
+                    {"itemName": "Picanha With Pineapple", "itemPrice": "34.00", "itemDescription": ""},
+                    {"itemName": "Grilled Filet Mignon", "itemPrice": "48.00", "itemDescription": ""}
+                ]
+            },
+            {
+                "name": "Seafood and Fish", "items": [
+                    {"itemName": "Twin Lobster Tails", "itemPrice": "54.00", "itemDescription": ""},
+                    {"itemName": "Jumbo Tiger Prawns", "itemPrice": "48.00", "itemDescription": ""},
+                    {"itemName": "Barbecued Codfish Chef Style", "itemPrice": "32.00", "itemDescription": ""},
+                    {"itemName": "Pan Seared Codfish With Peppers & Onions", "itemPrice": "32.00", "itemDescription": ""},
+                    {"itemName": "Octopus With Peppers & Onions", "itemPrice": "30.00", "itemDescription": ""},
+                    {"itemName": "Lobster Ravioli With Shrimp in Vodka Sauce", "itemPrice": "28.00", "itemDescription": ""}
+                ]
+            },
+            {
+                "name": "Meat and Chicken", "items": [
+                    {"itemName": "Filet Mignon Bordelaise", "itemPrice": "48.00", "itemDescription": ""},
+                    {"itemName": "Pork Filet Mignon With Bacon & Figs in Port Wine Reduction", "itemPrice": "34.00", "itemDescription": ""},
+                    {"itemName": "Grilled Pork Chops Giambotta", "itemPrice": "28.00", "itemDescription": ""},
+                    {"itemName": "Chicken Breast Campozino", "itemPrice": "26.00", "itemDescription": ""},
+                    {"itemName": "Chicken Breast Francaise Style", "itemPrice": "24.00", "itemDescription": ""},
+                    {"itemName": "Surf and Turf - Filet Mignon & 8 Oz Lobster Tail", "itemPrice": "60.00", "itemDescription": ""},
+                    {"itemName": "Chicken Breast in Garlic Sauce", "itemPrice": "24.00", "itemDescription": ""}
+                ]
+            },
+            {
+                "name": "Extra Sides", "items":[
+                    {"itemName": "Broccoli Rabe", "itemPrice": "5.00", "itemDescription": ""},
+                    {"itemName": "Sauteed Collard Greens", "itemPrice": "5.00", "itemDescription": ""},
+                    {"itemName": "Asparagus", "itemPrice": "5.50", "itemDescription": ""},
+                    {"itemName": "Grilled Vegetables", "itemPrice": "5.00", "itemDescription": ""},
+                    {"itemName": "Spanish Potatoes", "itemPrice": "3.50", "itemDescription": ""},
+                    {"itemName": "Black Beans", "itemPrice": "3.00", "itemDescription": ""},
+                    {"itemName": "Rice", "itemPrice": "3.00", "itemDescription": ""},
+                    {"itemName": "Yucca", "itemPrice": "6.50", "itemDescription": ""},
+                    {"itemName": "French Fries", "itemPrice": "3.00", "itemDescription": ""}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Abbate Bakery", 
+        "street": "247 Main St", 
+        "town": "Matawan", 
+        "state": "NJ", 
+        "zip": "07747", 
+        "color": "bg-gradient-to-l from-green-400 to-green-200", 
+        "image": "", 
+        "font": "", 
+        "deployed": true, 
+        "username": "B8", 
+        "email": "e8", 
+        "password": "p8", 
+        "albumItems": [],
+        "purchasedItems": [], 
+        "weekIncome": [], 
+        "menuDeployed":true,
+        "menu": [
+            {
+                "name": "Cheesecakes & Pies", "items": [
+                    {"itemName": "7\" Salted Caramel Apple NY Cheesecake", "itemPrice": "22.00", "itemDescription": ""},
+                    {"itemName": "7\" Rainbow Cookie NY Cheesecake", "itemPrice": "22.00", "itemDescription": ""},
+                    {"itemName": "Lemon Cream Pie", "itemPrice": "9.50", "itemDescription": ""},
+                    {"itemName": "Key Lime Pie", "itemPrice": "12.50", "itemDescription": ""},
+                    {"itemName": "Chocolate Cream Pie", "itemPrice": "9.50", "itemDescription": ""},
+                    {"itemName": "Banana Cream Pie", "itemPrice": "9.50", "itemDescription": ""},
+                    {"itemName": "Pumpkin Pie", "itemPrice": "9.50", "itemDescription": ""},
+                    {"itemName": "Fruit Pie", "itemPrice": "9.50", "itemDescription": ""},
+                    {"itemName": "7\" Italian Cheesecake", "itemPrice": "22.00", "itemDescription": ""},
+                    {"itemName": "7\" Pumpkin NY Cheesecake", "itemPrice": "22.00", "itemDescription": ""},
+                    {"itemName": "8\" Apple Torte", "itemPrice": "12.50", "itemDescription": ""},
+                    {"itemName": "7\" NY Style Cheesecake", "itemPrice": "19.95", "itemDescription": ""},
+                    {"itemName": "7\" Fresh Fruit Tart", "itemPrice": "26.00", "itemDescription": ""},
+                    {"itemName": "7\" Strawberry Cheesecake", "itemPrice": "26.00", "itemDescription": ""}
+                ]
+            },
+            {
+                "name": "Breakfast Items", "items": [
+                    {"itemName": "Glazed Donut", "itemPrice": "1.90", "itemDescription": ""},
+                    {"itemName": "Chocolate Babka", "itemPrice": "13.50", "itemDescription": ""},
+                    {"itemName": "Cinnamon Roll Donut", "itemPrice": "1.90", "itemDescription": ""},
+                    {"itemName": "Apple Pocket", "itemPrice": "3.95", "itemDescription": ""},
+                    {"itemName": "Crumb Cake Slice", "itemPrice": "2.95", "itemDescription": ""},
+                    {"itemName": "Apple Strudel", "itemPrice": "10.50", "itemDescription": ""},
+                    {"itemName": "Apple Turnover", "itemPrice": "3.95", "itemDescription": ""},
+                    {"itemName": "Chocolate Frosted Donut", "itemPrice": "1.90", "itemDescription": ""},
+                    {"itemName": "Vanilla Frosted Donut", "itemPrice": "1.90", "itemDescription": ""},
+                    {"itemName": "Boston Cream Donut", "itemPrice": "1.90", "itemDescription": ""},
+                    {"itemName": "Jelly Donut (Raspberry Jelly Filled)", "itemPrice": "1.90", "itemDescription": ""},
+                    {"itemName": "Croissant", "itemPrice": "2.75", "itemDescription": ""}
+                ]
+            },
+            {
+                "name": "Gluten Free", "items": [
+                    {"itemName": "Chocolate Hazelnut Cookies (1/2 lb)", "itemPrice": "9.13", "itemDescription": ""},
+                    {"itemName": "Pistachio Almond Cookies (1/2 lb)", "itemPrice": "9.13", "itemDescription": ""},
+                    {"itemName": "Strawberry Almond Cookies (1/2 lb)", "itemPrice": "9.13", "itemDescription": ""},
+                    {"itemName": "Mini 3\" Cheesecake", "itemPrice": "4.45", "itemDescription": ""},
+                    {"itemName": "Almond Cookies (1/2 lb)", "itemPrice": "9.13", "itemDescription": ""},
+                    {"itemName": "Pignoli Cookies (1/4 lb)", "itemPrice": "8.25", "itemDescription": ""}
+                ]
+            },
+            {
+                "name": "Pastries", "items": [
+                    {"itemName": "Eclair", "itemPrice": "2.60", "itemDescription": ""},
+                    {"itemName": "Napoleon", "itemPrice": "2.60", "itemDescription": ""},
+                    {"itemName": "Cannoli", "itemPrice": "4.45", "itemDescription": ""},
+                    {"itemName": "Sfogliatelle", "itemPrice": "2.60", "itemDescription": ""}
+                ]
+            },
+            {
+                "name": "Bread", "items": [
+                    {"itemName": "Artisan Sourdough Round", "itemPrice": "4.75", "itemDescription": ""},
+                    {"itemName": "French Loaf", "itemPrice": "2.80", "itemDescription": ""},
+                    {"itemName": "Club Rolls", "itemPrice": "0.85", "itemDescription": ""},
+                    {"itemName": "Kaiser Rolls", "itemPrice": "0.85", "itemDescription": ""},
+                    {"itemName": "Rye Bread", "itemPrice": "3.20", "itemDescription": ""},
+                    {"itemName": "Prosciutto Bread", "itemPrice": "7.50", "itemDescription": ""}
+                ]
+            }
+            
+        ]
+    }
+
+]
