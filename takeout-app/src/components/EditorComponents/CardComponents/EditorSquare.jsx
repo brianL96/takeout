@@ -359,7 +359,6 @@ const EditorSquare = ({turnOffDeployment, getBlockCard, editBlockCard, setDeploy
                 <div className='flex flex-col h-full w-full screen216:w-1/2 bg-slate-300'>
 
                     <div className="flex flex-col h-full w-full bg-purple-300">
-
                         <div className='h-48 w-full'>
                             <input type="text" required value={businessName} onChange={(e) => {setBusinessName(e.target.value); checkEditedWarning();}} id="businessName" className="mt-2 mb-2 ml-2 h-9 w-2/3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Business Name" />
                             <input type="text" required value={streetAddress} onChange={(e) => {setStreetAddress(e.target.value); checkEditedWarning();}} id="businessStreet" className="mb-2 ml-2 h-9 w-2/3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Street Address" />
