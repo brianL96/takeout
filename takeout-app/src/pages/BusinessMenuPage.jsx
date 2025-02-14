@@ -219,4 +219,3 @@ function checkFilterItem(filterItem){
 
 export default BusinessMenuPage
 
-
