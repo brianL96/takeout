@@ -29,7 +29,10 @@ const ClientMenuContainer = ({menuArray, addItemToClientCart, businessName, curr
         }
         
         currentFilterList.map((x) => {
+<<<<<<< HEAD
 
+=======
+>>>>>>> bdb3d96d9dcc1571fc30fd5fc824de76a3986da8
             let details = checkFilterItem(x);
             if(details.found){
                 foundFilters.push(true);
