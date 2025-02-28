@@ -43,7 +43,6 @@ const ClientNavbar = ({menuArray, businessName, foundSections, loginUsername}) =
 
     function moveToSpot(e, sectionid){
       e.preventDefault();
-
       let element = document.querySelector(`#${CSS.escape(sectionid)}`);
       if(element !== undefined && element !== null){
         element.scrollIntoView({block:'start', behavior:'smooth'});

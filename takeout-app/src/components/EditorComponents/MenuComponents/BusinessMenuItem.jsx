@@ -73,7 +73,6 @@ const BusinessMenuItem = ({sectionName, name, price, description, image, index, 
     }
     
     let cancellation = (e) => {
-
         e.preventDefault();
         setItemName(nameHolder);
         setItemPrice(priceHolder);
