@@ -6,7 +6,7 @@
 ## Tech Used:
 React on the frontend. Tailwind for styling. ChartJS for charts.
 
-## Running The Project:
+## Running Locally:
 Very simple because this is currently a frontend application only. Navigate the root folder and in the command line run the following two commands:
 >npm install  
 >npm run dev
