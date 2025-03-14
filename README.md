@@ -9,7 +9,8 @@ React on the frontend. Tailwind for styling. ChartJS for charts.
 ## Running The Project:
 Very simple because this is just a frontend application. Just navigate into the root folder and on a command line run the following two commands:
 >npm install  
->npm run dev  
+>npm run dev
+
 and the application will run on localhost:3000.
 
 ## Future Updates:
